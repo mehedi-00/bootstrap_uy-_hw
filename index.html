@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap </title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <!-- header part start -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light"  href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- header part ends -->
+    <!-- baner part start -->
+    <section class=" w-100 " style="height: 100vh;">
+        <div id="carouselExampleInterval" class="carousel slide h-100" data-bs-ride="carousel">
+            <div class="carousel-inner w-100 h-100">
+              <div class="carousel-item active h-100 position-relative" data-bs-interval="2000" style="background-image: url('./image/pexels-florian-eckerle-13719224.jpg') ; background-position: center; background-repeat: no-repeat; background-size: cover;">
+                <div class="bg-overlay w-100 h-100  position-absolute " style="z-index: 1; background-color: rgba(0,0,0,.4);"></div>
+                <div class="container position-relative h-100" style="z-index: 3;">
+                  <div class="row justify-content-center w-100 h-100">
+                    <div class="col-12 align-content-center text-center w-100 h-100">
+                      <h2 class="text-light text-center my-5">This is bootstra desgine</h2>
+                      <p class="w-lg-50 mx-auto text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum, explicabo consequatur voluptate accusantium laboriosam blanditiis ab porro ea eligendi?</p>
+                      <a href="" class="btn btn-primary d-inline-block my-5">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active h-100 position-relative" data-bs-interval="2000" style="background-image: url('./image/pexels-keith-lobo-5925951.jpg') ; background-position: center; background-repeat: no-repeat; background-size: cover;">
+                <div class="bg-overlay w-100 h-100  position-absolute " style="z-index: 1; background-color: rgba(0,0,0,.4);"></div>
+                <div class="container position-relative h-100" style="z-index: 3;">
+                  <div class="row justify-content-center w-100 h-100">
+                    <div class="col-12  align-content-center text-center w-100 h-100">
+                      <h2 class="text-light text-center my-5">This is bootstra desgine</h2>
+                      <p class="w-lg-50 mx-auto text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum, explicabo consequatur voluptate accusantium laboriosam blanditiis ab porro ea eligendi?</p>
+                      <a href="" class="btn btn-primary d-inline-block my-5">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active h-100 position-relative" data-bs-interval="2000" style="background-image: url('./image/pexels-florian-eckerle-13719224.jpg') ; background-position: center; background-repeat: no-repeat; background-size: cover;">
+                <div class="bg-overlay w-100 h-100  position-absolute " style="z-index: 1; background-color: rgba(0,0,0,.4);"></div>
+                <div class="container position-relative h-100" style="z-index: 3;">
+                  <div class="row justify-content-center w-100 h-100">
+                    <div class="col-12 align-content-center text-center w-100 h-100">
+                      <h2 class="text-light text-center my-5">This is bootstra desgine</h2>
+                      <p class="w-lg-50 mx-auto text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dolorum, explicabo consequatur voluptate accusantium laboriosam blanditiis ab porro ea eligendi?</p>
+                      <a href="" class="btn btn-primary d-inline-block my-5">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- baner part ends -->
+    <!-- about us part start -->
+
+    <section class="about bg-black py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center py-5">
+            <h2 class="text-light">About Us</h2>
+            <p class="text-light">-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, dolore? --</p>
+          </div>
+          <div class="col-lg-6">
+            <img src="./image/pexels-phgaltri-13616572.jpg" class="d-inline-block w-100  img-thumbnail img-fluid h-auto" alt="" height="300">
+          </div>
+          <div class="col-lg-6 text-light">
+            <h3 class="mb-5">WE ARE BAYYA</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aspernatur corporis harum vel rem deleniti fugiat quo eius in possimus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aperiam laudantium facilis amet, praesentium voluptas ullam mollitia iusto tenetur quaerat.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aspernatur corporis harum vel rem deleniti fugiat quo eius in possimus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aperiam laudantium facilis amet, praesentium voluptas ullam mollitia iusto tenetur quaerat.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aspernatur corporis harum vel rem deleniti fugiat quo eius in possimus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aperiam laudantium facilis amet, praesentium voluptas ullam mollitia iusto tenetur quaerat.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aspernatur corporis harum vel rem deleniti fugiat quo eius in possimus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aperiam laudantium facilis amet, praesentium voluptas ullam mollitia iusto tenetur quaerat.</p>
+            <a href="" class="btn btn-primary d-inline-block my-5">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- about us part ends -->
+    <!-- contact us part start -->
+
+    <section class="about bg-info py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center py-5">
+            <h2 class="text-light">Contact Us</h2>
+            <p class="text-light">-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, dolore? --</p>
+          </div>
+          <div class="col-lg-6">
+            <img src="https://media.istockphoto.com/photos/japanese-man-at-hand-operating-a-computer-picture-id1252809381" class="d-inline-block w-100  img-thumbnail img-fluid h-100" alt="" >
+          </div>
+          <div class="col-lg-6 ">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="text-center">Contact Form</h3>
+              </div>
+              <div class="card-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="" id="message" class="form-control" ></textarea>
+                    
+                  </div>
+                  
+                  
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us part ends -->
+
+    <!-- footer part start  -->
+
+    <footer class="bg-black py-5">
+      <h6 class="text-center text-light">Copyright © 2022 UY LAV Reserved| BY md mehedi hassan</h6>
+    </footer>
+
+    <!-- footer part ends -->
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
